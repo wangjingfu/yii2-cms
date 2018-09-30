@@ -1,0 +1,56 @@
+Message-ID: <29cd892041be1b00e0d0dc904b78a62c@_>
+Date: Thu, 27 Sep 2018 05:54:11 +0000
+Subject: Password reset for =?utf-8?Q?alili=E5=90=8E=E5=8F=B0=E7=AE=A1?=
+ =?utf-8?Q?=E7=90=86=E7=B3=BB=E7=BB=9F?=
+From: =?utf-8?Q?alili=E5=90=8E=E5=8F=B0=E7=AE=A1?=
+ =?utf-8?Q?=E7=90=86=E7=B3=BB=E7=BB=9F?= robot <wangjingfu@emicnet.com>
+To: 1470396466@qq.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1538027651_8e9869c42100c7130d077e9e971db255_=_"
+
+
+--_=_swift_v4_1538027651_8e9869c42100c7130d077e9e971db255_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello admin,
+
+Follow the link below to reset your password:
+
+http:/=
+/192.168.3.247:8087/rbac/user/reset-password?token=3DFIAiZdPpt303-_bxV6J2KL=
+3TnYeY1TED_1538026814
+
+--_=_swift_v4_1538027651_8e9869c42100c7130d077e9e971db255_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <div class=3D"password-reset">
+    <p>Hello admin,</p>
+
+    <p>Fo=
+llow the link below to reset your password:</p>
+
+    <p><a href=3D"http=
+://192.168.3.247:8087/rbac/user/reset-password?token=3DFIAiZdPpt303-_bxV6J2=
+KL3TnYeY1TED_1538026814">http://192.168.3.247:8087/rbac/user/reset-password=
+?token=3DFIAiZdPpt303-_bxV6J2KL3TnYeY1TED_1538026814</a></p>
+</div>
+   =
+ </body>
+</html>
+
+
+--_=_swift_v4_1538027651_8e9869c42100c7130d077e9e971db255_=_--

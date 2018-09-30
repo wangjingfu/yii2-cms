@@ -1,0 +1,110 @@
+2018-09-27 03:14:37 [192.168.2.229][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.2.229
+2018-09-27 03:14:37 [192.168.2.229][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'i44edku5mvhp1mh6hgrbirujd4'
+    '_csrf-frontend' => '906677848aabd524ec648eb2a50d5c3e540c4f15f4166e0b63053b1d516113c5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hPmSwjd-UCdT8JxDIVR0TNjg5K3qP2-W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=i44edku5mvhp1mh6hgrbirujd4; _csrf-frontend=906677848aabd524ec648eb2a50d5c3e540c4f15f4166e0b63053b1d516113c5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hPmSwjd-UCdT8JxDIVR0TNjg5K3qP2-W%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.3.247:8087'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => '_'
+    'SERVER_PORT' => '8087'
+    'SERVER_ADDR' => '192.168.3.247'
+    'REMOTE_PORT' => '51296'
+    'REMOTE_ADDR' => '192.168.2.229'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/yii2cms/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/yii2cms/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1538018077.1422
+    'REQUEST_TIME' => 1538018077
+]
+2018-09-27 03:20:27 [192.168.2.229][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: 页面未找到。 in /var/www/yii2cms/vendor/yiisoft/yii2/web/Request.php:284
+Stack trace:
+#0 /var/www/yii2cms/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#1 /var/www/yii2cms/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/yii2cms/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2018-09-27 03:20:27 [192.168.2.229][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'i44edku5mvhp1mh6hgrbirujd4'
+    '_csrf-frontend' => '906677848aabd524ec648eb2a50d5c3e540c4f15f4166e0b63053b1d516113c5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"hPmSwjd-UCdT8JxDIVR0TNjg5K3qP2-W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=i44edku5mvhp1mh6hgrbirujd4; _csrf-frontend=906677848aabd524ec648eb2a50d5c3e540c4f15f4166e0b63053b1d516113c5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22hPmSwjd-UCdT8JxDIVR0TNjg5K3qP2-W%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.3.247:8087'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => '_'
+    'SERVER_PORT' => '8087'
+    'SERVER_ADDR' => '192.168.3.247'
+    'REMOTE_PORT' => '51363'
+    'REMOTE_ADDR' => '192.168.2.229'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/yii2cms/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/admin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/yii2cms/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1538018427.7804
+    'REQUEST_TIME' => 1538018427
+]
